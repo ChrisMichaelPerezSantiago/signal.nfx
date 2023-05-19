@@ -1,5 +1,5 @@
 import { BASE_URL } from "./config";
-import cheerio, { html } from "cheerio";
+import cheerio from "cheerio";
 import request from "./request";
 import lodash from "lodash";
 import { parseTable } from "./util/TableParser";
