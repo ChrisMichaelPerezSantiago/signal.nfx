@@ -148,6 +148,18 @@ export async function getInvestors(id: string) {
   return await getRootData($);
 }
 
+export async function getFirms(id: string) {
+  const requestOpts = {
+    url: `${BASE_URL}/firms/${id}`,
+    method: "get",
+  };
+
+  const response = await request(requestOpts);
+  const $ = cheerio.load(response);
+
+  return await getRootData($);
+}
+
 async function getPersonDetails(name_id: string) {
   const requestOpts = {
     url: `${BASE_URL}/investors/${name_id}`,

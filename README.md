@@ -1217,6 +1217,1039 @@ yarn add signal.nfx
 </table>
 
 
+## `getFirms(id: string)`
+
+```typescript
+(async () => {
+  const response = await getFirms("01-advisors");
+})();
+```
+
+## JSON example
+<details>
+  <summary>json</summary>
+
+```json
+{
+  "name": "Adam Bain",
+  "name_id": "adam-bain",
+  "info": {
+    "avatar": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMlNnQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--c2e00e8db4d999fe7dec2d51577d90350ba5c81e/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0?d=160x160",
+    "label_1": "01 Advisors",
+    "label_2": "Managing Partner"
+  },
+  "sweet_spot": {
+    "label": "Sweet spot:",
+    "value": "$10.0M"
+  },
+  "investment_location": "Investors in SF Bay Area (CA)",
+  "profile": [
+    {
+      "investor_profile": {
+        "person": {
+          "name": "Adam Bain",
+          "roles": [
+            "Investor",
+            "VC",
+            "Operator"
+          ],
+          "url": "https://01a.com",
+          "social_network": [
+            {
+              "domain": "01a",
+              "url": "https://www.01a.com/"
+            },
+            {
+              "domain": "linkedin",
+              "url": "https://www.linkedin.com/in/adambain/"
+            },
+            {
+              "domain": "twitter",
+              "url": "https://www.twitter.com/adambain"
+            },
+            {
+              "domain": "crunchbase",
+              "url": "https://www.crunchbase.com/person/adam-bain"
+            }
+          ]
+        },
+        "headline": "Co-Founder &amp; Managing Partner at 01 Adivsors",
+        "location": {
+          "display_name": "Mill Valley, California"
+        },
+        "investment_on_record": "28",
+        "current_fund_size": null,
+        "sector_stage_rankings": [
+          "Adam Bain",
+          "Consumer Internet",
+          "Consumer Internet",
+          "Enterprise",
+          "Enterprise",
+          "SaaS",
+          "SaaS"
+        ],
+        "table": {
+          "head": {
+            "cells": [
+              "Company",
+              "StageDateRound Size",
+              "Total Raised"
+            ]
+          },
+          "body": [
+            {
+              "cells": [
+                "Bloomreach",
+                "Debt FinancingOct 2022$30M",
+                "$300M"
+              ]
+            },
+            {
+              "cells": [
+                "Co-investors: Ajay Agarwal (Bain Capital Ventures), Scott Sandell (New Enterprise Associates (NEA)), Chris Dixon (Andreessen Horowitz), Alfred Chuang (Race Capital)"
+              ]
+            },
+            {
+              "cells": [
+                "Pixel Vault",
+                "Series AFeb 2022$100M",
+                "$100M"
+              ]
+            },
+            {
+              "cells": [
+                "Tipalti",
+                "Series FDec 2021$270MSeries EOct 2020$150MSeries DSep 2019$76M",
+                "$500M"
+              ]
+            },
+            {
+              "cells": [
+                "Co-investors: Dick Costolo (01 Advisors), Nadav Eylath (at.inc/)"
+              ]
+            },
+            {
+              "cells": [
+                "Mythical Games",
+                "Series CNov 2021$150MSeries BJun 2021$75M",
+                "$410M"
+              ]
+            },
+            {
+              "cells": [
+                "Co-investors: Arianna Simpson (Andreessen Horowitz), Amos Ben-Meir (Sand Hill Angels), Alan Leong (Sand Hill Angels), Sam Englebardt (Galaxy Digital), Chris Sklarin (Alumni Ventures Group), Gregory Baker (Bascom Ventures), Anton Simunovic (Alumni Ventures Group), Tom Meyer (Alumni Ventures Group), Alex Gurevich (Javelin Venture Partners), Ryan Tedder"
+              ]
+            },
+            {
+              "cells": [
+                "HiveWatch",
+                "Series AOct 2021$20M",
+                "$20M"
+              ]
+            },
+            {
+              "cells": [
+                "Co-investors: Dick Costolo (01 Advisors), Lachy Groom (LGF)"
+              ]
+            },
+            {
+              "cells": [
+                "Electric",
+                "Series DOct 2021$90MSeries BMar 2020$15M",
+                "$180M"
+              ]
+            },
+            {
+              "cells": [
+                "Co-investors: Jeff Richards (GGV Capital), Mike Brown Jr (Bowery Capital), Bob Goodman (Bessemer Venture Partners), Namek T. Zu'bi (Silicon Badia), Brad Svrluga (Primary Venture Partners), Dan Teran (Gutter Capital), Laurel Touby (Supernode Ventures), Brett Martin (Charge Ventures), Scott Hartley (Two Culture Capital), Gavin Baker (Atreides Management), Dick Costolo (01 Advisors)"
+              ]
+            },
+            {
+              "cells": [
+                "Loop",
+                "Series ASep 2021$21M",
+                "$110M"
+              ]
+            },
+            {
+              "cells": [
+                "Co-investors: Dave Samuel (Freestyle Capital), Peter Gajdoš (Fifth Wall), John Luttig (Founders Fund), Nasir Jones (QueensBridge Venture Partners), Brian Bell (Team Ignite Ventures), Songe LaRon (The Community Fund), Steve Schlafman, Mark Pincus"
+              ]
+            },
+            {
+              "cells": [
+                "Origin",
+                "Series BAug 2021$56M",
+                "$97M"
+              ]
+            },
+            {
+              "cells": [
+                "Co-investors: Niki Pezeshki (Felicis Ventures), Mike Maples (Floodgate), Joe Montana (Liquid 2 Ventures), Jason Krikorian (DCM), Chris Adelsbach (Outrun Ventures), Nicolas Sauvage (TDK Ventures), Mey Cezairli (Project A), Dick Costolo (01 Advisors), Pascal Levy-Garboua (Long Journey Ventures), Sean Dempsey (Merus Capital), Ryan Orr"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
+```
+</details>
+
+### Firms 
+
+| id                                   |
+| ------------------------------------- |
+| 01-advisors                           |
+| 01-ventures                           |
+| 040-capital                           |
+| 100x-vc                               |
+| 10100-vc                              |
+| 10k-ventures                          |
+| 10xers-fund                           |
+| 10x-group                             |
+| 10x-investor-club                     |
+| 1-1-capital                           |
+| 1up-ventures                          |
+| 2050-capital                          |
+| 2xn                                   |
+| 3pel-ventures                         |
+| 44-ventures                           |
+| 4ward-vc                              |
+| 500-startups                          |
+| 500-startups-latam                    |
+| 50-partners                           |
+| 50-partners-impact                    |
+| 5-star-capital                        |
+| 645-ventures                          |
+| 7feur-ventures                        |
+| 7percent-ventures                     |
+| 8090-industries                       |
+| 840-venture-partners                  |
+| 8-bit-capital                         |
+| 8vc                                   |
+| aaf-management-ltd                    |
+| a-star-capital                        |
+| acario                                |
+| ace-aceleratech                       |
+| aceleralatam                          |
+| acequia-capital                       |
+| actai-ventures                        |
+| ada-ventures                          |
+| addition                              |
+| adjacent                              |
+| advancit-capital                      |
+| aenu                                  |
+| afterdox                              |
+| afterwork-ventures                    |
+| ag-startup-engine                     |
+| ai-fund                               |
+| aimores-investments                   |
+| ai-operators-fund                     |
+| airangels                             |
+| air-street-capital                    |
+| airtree-ventures                      |
+| aisprouts-vc                          |
+| akaris-global-partners                |
+| alaya-capital-partners                |
+| alex-angels-alexandria-angel-network  |
+| allegory                              |
+| alliance-of-angels                    |
+| allievo-capital                       |
+| all-iron-ventures                     |
+| alma-angels                           |
+| alumni-ventures-group                 |
+| amasia                                |
+| american-family-ventures              |
+| america-s-frontier-fund               |
+| amplo                                 |
+| amritam-holdings                      |
+| amtech-partners                       |
+| anamcara-capital                      |
+| andreessen-horowitz                   |
+| anexo                                 |
+| angeldesk                             |
+| angel-investments                     |
+| angel-investor                        |
+| angellist-syndicator                  |
+| hashtag-angels                        |
+| angels-of-many                        |
+| angel-ventures-mexico                 |
+| antartica-ventures                    |
+| anthemis-group                        |
+| antler                                |
+| apollo-projects                       |
+| arceau                                |
+| ascend-ventures                       |
+| ascension-ventures                    |
+| asta-academy                          |
+| astella-investments                   |
+| astel-ventures                        |
+| aster-capital                         |
+| asymmetric                            |
+| athenian-capital                      |
+| atlanta-technology-angels             |
+| atlantica-ventures                    |
+| atlantic-labs                         |
+| atlantico-partners-sao-paulo          |
+| atomico                               |
+| atoms                                 |
+| at-one-ventures                       |
+| atria-ventures                        |
+| audacity                              |
+| audacity-venture-capital              |
+| audrey-capital                        |
+| august-capital                        |
+| aug-x-labs                            |
+| autotech-ventures                     |
+| av8-ventures                          |
+| avalanche-vc                          |
+| aviso-ventures                        |
+| awesome-ventures                      |
+| axeleo-capital                        |
+| a-z-angels                            |
+| az-vc                                 |
+| b2                                    |
+| babel-ventures                        |
+| bain-capital-ventures                 |
+| baker-hall-capital                    |
+| balderton-capital                     |
+| ballistic-ventures                    |
+| bam-ventures                          |
+| bastille-ventures                     |
+| battery-ventures                      |
+| baukunst                              |
+| bbg-ventures                          |
+| b-capital-group                       |
+| bcf-ventures                          |
+| beacon-capital                        |
+| beckley-waves                         |
+| behold-ventures                       |
+| belal-badat-ventures                  |
+| benchmark                             |
+| ben-taft-s-genius-ventures            |
+| berkeley-angel-network                |
+| betaworks-ventures                    |
+| better-tomorrow-ventures              |
+| better-ventures                       |
+| big-cheese-ventures                   |
+| big-idea-ventures                     |
+| binance-labs                          |
+| bitkraft-ventures                     |
+| black-angel-group                     |
+| blackbird-ventures                    |
+| black-opal-ventures                   |
+| blacktech-capital                     |
+| bling-capital                         |
+| blockchain-capital                    |
+| blocklabs-capital-management          |
+| bloc-ventures                         |
+| bloomberg-beta                        |
+| blue-air-ventures                     |
+| bluerun-ventures                      |
+| blue-startups                         |
+| blumberg-capital                      |
+| blume-ventures                        |
+| bold-capital-partners                 |
+| boldstart-ventures                    |
+| bolster-ventures                      |
+| bonfire-ventures                      |
+| boost-vc                              |
+| boston-harbor-angels                  |
+| bread-and-butter-ventures             |
+| breakthrough-energy-ventures          |
+| brick-and-mortar-ventures             |
+| brickyard                             |
+| bridge-latam                          |
+| bright-growth                         |
+| brkfst-club                           |
+| broadstone                            |
+| browder-capital                       |
+| bt-growth-capital                     |
+| buckley-ventures                      |
+| builders-vc                           |
+| bullpen-capital                       |
+| byld-ventures                         |
+| cacao-capital-vc                      |
+| calendula-ventures                    |
+| california-innovation-fund            |
+| camber-creek                          |
+| cambrian-ventures                     |
+| canary                                |
+| canvas-ventures                       |
+| capitalg                              |
+| captjur-connect                       |
+| carrick-capital-partners              |
+| carya-venture-partners                |
+| catapult-capital                      |
+| centre-street-partners                |
+| cerulean-ventures                     |
+| cervin-ventures                       |
+| chain-reaction                        |
+| chang-corporation                     |
+| chasing-rainbows                      |
+| cherry-ventures                       |
+| cherubic-ventures                     |
+| chileglobal-ventures                  |
+| cincy-tech                            |
+| citypark-investments                  |
+| clean-energy-ventures                 |
+| climactic                             |
+| climate-capital                       |
+| coalition-operators                   |
+| cofounderzone                         |
+| cofound-partners                      |
+| collide-capital                       |
+| composite-ventures                    |
+| compound                              |
+| concept-ventures                      |
+| concrete-vc                           |
+| conexo-ventures                       |
+| connection-silicon-valley             |
+| convective-capital                    |
+| convergence-partners-ag               |
+| conviction-partners                   |
+| conviction-vc                         |
+| convoi-ventures                       |
+| cool-climate-collective               |
+| coral-coral-defi                      |
+| corazon-capital                       |
+| coreangels                            |
+| cornerstone-venture-partners          |
+| costanoa-ventures                     |
+| covariant                             |
+| cowboy-ventures                       |
+| cracks-fund                           |
+| cradlex                               |
+| craft-ventures                        |
+| crane-venture-partners                |
+| creame-incubadora-de-empresas         |
+| criabiz-ventures                      |
+| crossbeam-venture-partners            |
+| crosscut-ventures                     |
+| crv                                   |
+| cryptohq-fund                         |
+| curiosity-vc                          |
+| c-ventures                            |
+| cvx-ventures                          |
+| cyberstarts-vc                        |
+| darco-capital                         |
+| data-tech-fund                        |
+| dawn-capital                          |
+| day-one-ventures                      |
+| data-collective                       |
+| decibel-partners                      |
+| deepbridge-capital                    |
+| defense-angels                        |
+| defy-partners                         |
+| dell-technologies-capital             |
+| denver-angels                         |
+| depo-ventures                         |
+| designer-fund                         |
+| destination-accelerator               |
+| devlabs                               |
+| d-f-a-capital                         |
+| dfj                                   |
+| diez-ventures-inc                     |
+| dis-capital                           |
+| dispersion-capital                    |
+| divergent-investments                 |
+| diversity-x-1                         |
+| dmv-capital                           |
+| dn-capital                            |
+| domo-invest                           |
+| dorm-room-fund                        |
+| double-down                           |
+| draper-associates                     |
+| dream-funded                          |
+| dreamit-ventures                      |
+| dream-maker-ventures                  |
+| dst-global                            |
+| dweb3-capital                         |
+| early-game-ventures                   |
+| early-light-ventures                  |
+| edtech-booster-capital                |
+| ehukai-investments                    |
+| elbow-beach-capital                   |
+| electric-capital                      |
+| emad-hasan                            |
+| embedded-capital                      |
+| emergence-capital                     |
+| emphasis-ventures-emvc                |
+| end-partners                          |
+| endpoint-ventures                     |
+| ensemble-vc                           |
+| entain-group-plc                      |
+| eqt-ventures                          |
+| equihack-ventures                     |
+| eseed                                 |
+| esh-vc                                |
+| ethos-vc                              |
+| eucrates-biomedical-acquisition-corp  |
+| eunoia-capital-partners               |
+| evening-fund                          |
+| evolution-equity-partners             |
+| exceptional-ventures                  |
+| expedite-ventures                     |
+| expert-dojo                           |
+| extantia-capital                      |
+| facebook                              |
+| factor-capital                        |
+| family-office                         |
+| f-a-muhsen-capital                    |
+| far-out-ventures                      |
+| farpoint                              |
+| fastercapital                         |
+| fea-angels                            |
+| felicis-ventures                      |
+| felix-capital                         |
+| fellows-fund                          |
+| ferguson-ventures                     |
+| ff-venture-capital                    |
+| fhe-ventures-feluma-ventures          |
+| fidi-ventures                         |
+| fifth-wall                            |
+| filkor-capital                        |
+| finch-capital                         |
+| finsight-ventures                     |
+| fintop-capital                        |
+| fireside-ventures                     |
+| first-bight-ventures                  |
+| firsthand-alliance                    |
+| firstmark-capital                     |
+| firstminute-capital                   |
+| first-round-capital                   |
+| fj-labs                               |
+| floodgate                             |
+| florida-funders                       |
+| flucas-ventures                       |
+| fluidtheory                           |
+| forerunner-ventures                   |
+| fort-ross-ventures                    |
+| forum-ventures                        |
+| foundation-capital                    |
+| founder-collective                    |
+| founder-institute                     |
+| founderpartners                       |
+| founders-circle-capital               |
+| founders-fund                         |
+| framework-venture-partners            |
+| freestyle-capital                     |
+| frontier-path-vc                      |
+| fstage-vc                             |
+| fuel-capital                          |
+| fuel-ventures                         |
+| full-flight-ventures                  |
+| fundamental-labs                      |
+| fundamentum                           |
+| funders-club                          |
+| fund-fellow-founders                  |
+| fuse-venture-partners                 |
+| fusion-fund                           |
+| future-africa                         |
+| future-ventures                       |
+| g20-ventures                          |
+| g2-capital                            |
+| game-seer-venture-partners            |
+| ganas-ventures                        |
+| garden-district-ventures              |
+| gener8tor                             |
+| general-catalyst                      |
+| genesis-vc                            |
+| genesis-ventures                      |
+| ggv-capital                           |
+| giant-step-capital                    |
+| gigascale-capital                     |
+| git1k                                 |
+| glade-brook                           |
+| glasswing                             |
+| glilot-capital-partners               |
+| global-founders-capital               |
+| goat-capital                          |
+| goldman-sachs                         |
+| goldstreet-venture-capital            |
+| goodwater-capital                     |
+| gorilla-capital                       |
+| gradient-ventures                     |
+| graphite-ventures                     |
+| graph-ventures                        |
+| gravity-fund                          |
+| greylock                              |
+| grey-silo-ventures                    |
+| griffin-gaming-partners               |
+| group-11                              |
+| gsd-venture-studios                   |
+| gsv-ventures                          |
+| guerrilla-capital                     |
+| gutter-capital                        |
+| gv                                    |
+| habico-invest                         |
+| hambro-perks                          |
+| e-ventures                            |
+| heartcore-capital                     |
+| helion-venture-partners               |
+| hg-ventures                           |
+| hoaq                                  |
+| hof-capital                           |
+| honda-innovations                     |
+| honey-island-capital                  |
+| houghton-street-ventures              |
+| hoxton-ventures                       |
+| hudson-valley-startup-fund            |
+| hustle-fund                           |
+| hyphacapital                          |
+| hyphen-capital                        |
+| icon                                  |
+| ifg-vc                                |
+| igaming-ideas                         |
+| igvc                                  |
+| illuminate-ventures                   |
+| iluminar-ventures                     |
+| immeasurable                          |
+| impacta-vc                            |
+| impact-fundry                         |
+| impact-vc                             |
+| inba-shenfeld-holdings                |
+| incisive-ventures                     |
+| include-venture-partners              |
+| independent                           |
+| index-ventures                        |
+| indicator-ventures                    |
+| inertia-ventures                      |
+| innospark-ventures                    |
+| innovation-endeavors                  |
+| innovent-capital-group                |
+| int3                                  |
+| interlock-capital                     |
+| international-accelerator             |
+| interplay-ventures                    |
+| ivp-institutional-venture-partners    |
+| jamjar-investments                    |
+| jaza-rift-ventures                    |
+| jazz-venture-partners                 |
+| jelix-ventures                        |
+| jetblue-technology-ventures           |
+| jlabs                                 |
+| jude-gomila-rolling-fund              |
+| jungle-ventures                       |
+| juniper-networks                      |
+| kalytix-ventures                      |
+| kearny-jackson                        |
+| keyhole-advisory-llc                  |
+| kindred-ventures                      |
+| kli-capital                           |
+| kohfounders                           |
+| krm-interests-llc                     |
+| kw-angel-fund                         |
+| l1-digital                            |
+| la-famiglia                           |
+| lakestar                              |
+| lanai                                 |
+| latin-leap                            |
+| l-attitude-ventures                   |
+| launchpad-venture-group               |
+| l-catterton-growth                    |
+| leia-capital                          |
+| lewga                                 |
+| liberty-media                         |
+| ligature                              |
+| lightning-ventures                    |
+| lightspeed-venture-partners           |
+| lionheart-ventures                    |
+| listen                                |
+| living-on-the-edge-aka-lote-capital   |
+| lofty-ventures                        |
+| lombardstreet-ventures                |
+| long-journey-ventures                 |
+| longtail-ventures                     |
+| looking-glass-capital                 |
+| look-up-ventures                      |
+| lowercarbon-capital                   |
+| ludis-capital                         |
+| ludlow-ventures                       |
+| lunar-ventures                        |
+| luno-expeditions                      |
+| lux-capital                           |
+| lventure-group                        |
+| lvlup-ventures                        |
+| m31-capital                           |
+| madrona-venture-labs                  |
+| magic                                 |
+| magnivia-ventures                     |
+| main-sequence-ventures                |
+| malaika-ventures                      |
+| malpani-ventures                      |
+| mangrove-capital-partners             |
+| manhattan-west                        |
+| maple-vc                              |
+| march-capital-partners                |
+| markd-vc                              |
+| mark-ventures                         |
+| maru-summit                           |
+| massmutual-ventures                   |
+| masterkey-vc                          |
+| matrix-partners-china                 |
+| matthew-brown-companies               |
+| maverick-capital                      |
+| max-ventures                          |
+| maya-capital                          |
+| mayfield                              |
+| mechanism-capital                     |
+| menara-ventures                       |
+| mendoza-ventures                      |
+| menlo-ventures                        |
+| merak-ventures                        |
+| mettle-fund                           |
+| miami-angels                          |
+| michael-peres                         |
+| mindset-ventures                      |
+| miramar-ventures                      |
+| mir-ventures                          |
+| mizmaa-ventures                       |
+| mkt1-capital                          |
+| molly-knappen                         |
+| molten-ventures                       |
+| monte-carlo-capital                   |
+| moso-capital                          |
+| motier-ventures                       |
+| motivate-ventures                     |
+| moxxie-ventures                       |
+| msm                                   |
+| msw-capital                           |
+| mudita-venture-partners               |
+| multicoin-capital                     |
+| mu-ventures                           |
+| neo                                   |
+| nes-tech                              |
+| network                               |
+| network-vc                            |
+| neu-venture-capital                   |
+| new-age-capital                       |
+| new-age-ventures                      |
+| new-enterprise-associates             |
+| new-leaf-invest                       |
+| newtopia-vc                           |
+| newtype-ventures                      |
+| new-york-angels                       |
+| new-york-venture-partners             |
+| next-frontier-capital                 |
+| nextgen-venture-partners              |
+| nextview-ventures                     |
+| next-wave-impact                      |
+| nfx                                   |
+| nielsen-innovate                      |
+| night-capital                         |
+| nimbus-synergies                      |
+| niu-ventures                          |
+| niya-partners                         |
+| no-deposit-no-return                  |
+| norte-ventures                        |
+| notation-capital                      |
+| nxtp-labs                             |
+| obscura                               |
+| oca-ventures                          |
+| offline-ventures                      |
+| on-deck                               |
+| onx-capital                           |
+| op-crypto                             |
+| opencapital-vc                        |
+| operate                               |
+| operator-collective                   |
+| operator-ventures                     |
+| orama-ventures                        |
+| orange-collective                     |
+| osbon-capital-management              |
+| otherwise-fund                        |
+| ourcrowd                              |
+| outbound-capital                      |
+| outlander-labs                        |
+| outliers-capital                      |
+| outlier-ventures                      |
+| outrun-ventures                       |
+| outsized-ventures                     |
+| oval-park-capital                     |
+| oval-ventures                         |
+| oventures                             |
+| overlooked-ventures                   |
+| ovo-fund                              |
+| oxford-angel-fund                     |
+| p10x-ventures                         |
+| pact-vc                               |
+| page56-capital                        |
+| palo-santo-vc                         |
+| pantera-capital                       |
+| paradigm                              |
+| pareto-holdings                       |
+| partech-ventures                      |
+| patron                                |
+| peabody-capital-group                 |
+| pear-vc                               |
+| pebblebed                             |
+| pegasus-tech-ventures                 |
+| pelion-venture-partners               |
+| pepper-ventures                       |
+| perkins-coie                          |
+| phenomenal-ventures                   |
+| phoenix-fund                          |
+| phystech-ventures                     |
+| picus-capital                         |
+| pillar-vc                             |
+| pinto-ventures                        |
+| pioneer-fund                          |
+| platinum-software-development-company |
+| playfair-capital                      |
+| plexo-capital                         |
+| plug-and-play-ventures                |
+| pnina-international                   |
+| point72-ventures                      |
+| point-nine-capital                    |
+| polychain-capital                     |
+| portage-ventures                      |
+| portal-ventures                       |
+| powerhouse-ventures                   |
+| prabhakar-ventures                    |
+| practical-venture-capital             |
+| predictive-vc                         |
+| preface-ventures                      |
+| presight-capital                      |
+| prithvi-ventures                      |
+| privilege-ventures                    |
+| promus-ventures                       |
+| proof-group                           |
+| propeller-vc                          |
+| punch-capital                         |
+| pvcp                                  |
+| quiet-capital                         |
+| race-capital                          |
+| rackhouse-venture-capital             |
+| radical-ventures                      |
+| radicle-ventures                      |
+| radix-innovation-capital              |
+| rali_cap                              |
+| rebel-fund                            |
+| recharged-partners                    |
+| recruit-strategic-partners            |
+| redalpine-venture-partners            |
+| redpoint-eventures                    |
+| redpoint-ventures                     |
+| regen-ventures                        |
+| reinforced-ventures                   |
+| remus-capital                         |
+| renegade-capital                      |
+| republic                              |
+| resolute-ventures                     |
+| responsibly-ventures                  |
+| ret-ventures                          |
+| revel-partners                        |
+| revolution                            |
+| revolution-growth                     |
+| revolution-ventures                   |
+| revroad-capital                       |
+| rezilyent-capital                     |
+| ribbit-capital                        |
+| ride-ventures                         |
+| ridge-ventures                        |
+| right-side-capital-management         |
+| robot-ventures                        |
+| rocketship-vc                         |
+| rock-health                           |
+| rock-yard-ventures                    |
+| roosh-ventures                        |
+| root-ventures                         |
+| rtp-global                            |
+| s28-capital                           |
+| s3-ventures                           |
+| saasholic-fund                        |
+| saints-capital                        |
+| saltagen-ventures                     |
+| sand-hill-angels                      |
+| satgana                               |
+| scheinman-angel-fund                  |
+| schox-venture-capital                 |
+| scifi-vc                              |
+| scribble-ventures                     |
+| scx-holdings                          |
+| seaside-ventures                      |
+| seaya-ventures                        |
+| secret-chord-ventures                 |
+| sector-7                              |
+| seed-club-ventures                    |
+| seed-round-capital                    |
+| seedstars                             |
+| sequoia-capital                       |
+| sequoia-capital-china                 |
+| sequoia-capital-india                 |
+| seraphim-space                        |
+| shaan-s-all-access-fund               |
+| shilling-capital                      |
+| shima-capital                         |
+| shine-capital                         |
+| shorea-ventures                       |
+| shunwei-capital                       |
+| side-stage-ventures                   |
+| sif-ventures-uk                       |
+| signal-peak-ventures                  |
+| signia-venture-partners               |
+| silence                               |
+| silicon-badia                         |
+| silicon-beach-investment-group        |
+| silicon-valley-connect                |
+| silvercircle                          |
+| singh-capital-partners                |
+| skl-vc                                |
+| skycatcher-fund                       |
+| skyview-capital                       |
+| smart-money-ventures                  |
+| softbank-investment-advisers          |
+| sol-fund                              |
+| sommet-ab                             |
+| sony-innovation-fund                  |
+| sosv                                  |
+| spacecadet                            |
+| spark-capital                         |
+| speedinvest                           |
+| spice-capital                         |
+| spintop-ventures                      |
+| spring-activator                      |
+| springboard-health-angels             |
+| square-peg-capital                    |
+| srb-ventures                          |
+| sridesign                             |
+| starburst-ventures                    |
+| started-edtech-week                   |
+| startup-bucks                         |
+| startupgym                            |
+| startup-ignition-ventures             |
+| startup-wise-guys                     |
+| state-farm                            |
+| sterling-equity                       |
+| strange-brew-ventures-llc             |
+| stride-vc                             |
+| struck-capital                        |
+| summit-partners                       |
+| sunset-ventures                       |
+| super-capital-vc                      |
+| supreme-factory                       |
+| sv-angel                              |
+| sv-venture-group                      |
+| swan-venture-fund                     |
+| sweater-ventures                      |
+| symbolic-capital                      |
+| synaptic-ventures                     |
+| syndicateroom                         |
+| tau-ventures                          |
+| tbd-angels                            |
+| tcg                                   |
+| team-ignite-ventures                  |
+| techne-infiniti-ventures              |
+| techstars                             |
+| telegraph-hill-capital                |
+| telegraph-hill-partners               |
+| texkap-equity-investments             |
+| the-81-collection                     |
+| the-chennai-angels                    |
+| the-community-fund                    |
+| the-engine                            |
+| the-family-fund                       |
+| the-fintech-fund                      |
+| the-general-partnership               |
+| the-helm                              |
+| the-mba-fund                          |
+| theory-ventures                       |
+| the-venture-collective-tvc            |
+| think-colorado                        |
+| third-rock-ventures                   |
+| thirty-five-ventures                  |
+| thomvest-ventures                     |
+| thrive-capital                        |
+| tiger-global-management               |
+| time-bioventures                      |
+| tmt-investments                       |
+| tmv                                   |
+| tmw-capital                           |
+| todd-and-rahul-angel-fund             |
+| token-amigo                           |
+| top-harvest-capital                   |
+| tq-ventures                           |
+| transcend-fund                        |
+| trebuchet-partners                    |
+| triatomic-capital                     |
+| tribe-capital                         |
+| trolley-venture-partners              |
+| true-ventures                         |
+| type-one-ventures                     |
+| ul-ventures                           |
+| umami-capital                         |
+| unconventional-ventures               |
+| underdog-labs                         |
+| unearth                               |
+| union-labs                            |
+| union-square-ventures                 |
+| unovis-asset-management               |
+| unruly-capital                        |
+| uphonest-capital                      |
+| upload-ventures                       |
+| urbanist-ventures                     |
+| u-s-department-of-defense             |
+| v3ntures                              |
+| vala-capital                          |
+| valar-ventures                        |
+| valhalla-capital                      |
+| valley-capital-partners               |
+| valutia                               |
+| vamos-ventures                        |
+| variant                               |
+| various                               |
+| vast-ventures                         |
+| venrock                               |
+| ventiur-aceleradora                   |
+| venture-development-partners          |
+| venturesouth                          |
+| venture-university                    |
+| vera-equity                           |
+| veritas-capital                       |
+| version-one-ventures                  |
+| vibranium-vc                          |
+| vickers-venture-partners              |
+| victress-capital                      |
+| village-global                        |
+| vintage-investment-partners           |
+| visible-hands                         |
+| vitalize-venture-group                |
+| vita-vera-ventures                    |
+| vivek-sodera-ventures                 |
+| voyager-ventures                      |
+| vsc-ventures                          |
+| vu-venture-partners                   |
+| warwicktech                           |
+| webtalk-ltd                           |
+| weekend-fund                          |
+| westchester-angels                    |
+| westriver-group                       |
+| whale-one                             |
+| what-if-ventures                      |
+| wilmington-investor-network           |
+| winning-together-fund                 |
+| wolfpack-investor-network             |
+| wollef-ventures                       |
+| work-life-ventures                    |
+| world-fund                            |
+| xange                                 |
+| x-factor-ventures                     |
+| xploration-capital                    |
+| xrc-labs                              |
+| xseed-capital                         |
+| xtx-ventures                          |
+| xx                                    |
+| y-combinator                          |
+| yellowrocks-vc                        |
+| zaka-ventures                         |
+| zedcrest-capital                      |
+| zkp                                   |
+| znzinvestor-corp                      |
+
+
 ## **:handshake: Contributing**
 
 - Fork it!
